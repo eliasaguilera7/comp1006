@@ -31,19 +31,19 @@
 const persons = [
 {
     name: "Mark",
-    city: "Toronto",
+    origin: "Toronto",
     age: 31
 },
 
 {
     name: "John",
-    city: "Barrie",
+    origin: "Barrie",
     age: 28
 },
 
 {
     name: "Paul",
-    city: "Winnipeg",
+    origin: "Winnipeg",
     age: 19
 }
 ];
@@ -111,8 +111,8 @@ for( person of persons){
 
   printStudent(person);
 
- // let {name, city} = person;
-  //console.log(`Welcome to Javascript ${name} I see that you are from ${city}, that's awesome! `)
+ // let {name, origin} = person;
+  //console.log(`Welcome to Javascript ${name} I see that you are from ${origin}, that's awesome! `)
 }
 
 
