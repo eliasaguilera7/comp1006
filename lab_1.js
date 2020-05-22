@@ -77,7 +77,7 @@ returnData(persons);
     destructured.
 */
 
-let students = {
+const students = {
   name: "Elias",
   age: 33,
   origin: "Paraguay"
